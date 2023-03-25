@@ -15,7 +15,7 @@ if(hasDriverLicense)console.log('I can drive');
 
 
 
-
+/*
 
 function logger(){
     console.log('My name is Rabeya');
@@ -56,3 +56,4 @@ const calcAge2=function(birthYear){
 const age2=calcAge2(1993);
 console.log(age1,age2);
 
+*/

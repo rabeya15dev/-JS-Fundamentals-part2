@@ -1,5 +1,5 @@
 'use strict'
-// Function expression
+ // Function expression
 
 const calAge2=function(birthYear){
     return 2040-birthYear;
@@ -23,3 +23,4 @@ return `${firstName}retires in ${retirement}years`;
 console.log(yearUnitRetirement(1990,'Rabeya'));
 
 console.log(yearUnitRetirement(1991,'Bob'));
+

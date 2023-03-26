@@ -1,5 +1,5 @@
 
-function furitsProcessor(Apple, orange){
+function fruitsProcessor(Apple, orange){
     const juice=`juice with ${Apple} apples and${orange} oranges`;
     return juice;
 }

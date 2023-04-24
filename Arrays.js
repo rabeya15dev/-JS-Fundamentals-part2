@@ -1,4 +1,4 @@
-const friend1='Shakib';
+/* const friend1='Shakib';
 const friend2='rabeya';
 const friend3='bosri';
 const friends=['Shakib','rabeya','bosri'];
@@ -36,3 +36,38 @@ console.log(age1,age2,age3);
 
 const ages=[calcAge(years[0],calcAge(years[1]),calcAge(years[years.length-1]))];
 console.log(ages);
+*/
+
+//basic array operation
+
+const friends=['rabeya','shakib','leo'];
+
+//add elements
+const newLength=friends.push('messi');
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('jarka');
+console.log(friends);
+
+
+//remove elements
+
+friends.pop();//last
+const popped=friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift();//first
+console.log(friends);
+console.log(friends.indexOf('shakib'));
+console.log(friends.indexOf('messsi'));
+
+friends.push(23);
+console.log(friends.includes('shakib'));
+console.log(friends.includes('messsi'));
+console.log(friends.includes('23'));
+
+if(friends.includes('shakib')){
+    console.log('YOu have a friend called steven');
+}
